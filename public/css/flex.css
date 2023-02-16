@@ -1,0 +1,56 @@
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
+  margin-bottom: 50px;
+}
+
+.el {
+  border-radius: 10px;
+  background: var(--bleuf);
+  height: 150px;
+
+  font-size: 5rem;
+  line-height: 10rem;
+  color: var(--main);
+  text-align: center;
+  align-items: center;
+  margin: 1%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  margin: 0 0 50px 20px;
+  height: 80px;
+  width: 80px;
+}
+
+.py {
+  margin-bottom: 65px;
+}
+
+.txt {
+  font-family: 'mac';
+
+}
+
+.txt h3 {
+  color: #361D2E;
+  font-size: 3rem;
+}
+
+.h1 {
+  padding-right: 10px;
+}
+
+.home .tooling .tooling-box .box-content {
+  align-items: center;
+  background: #021709;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 1 18%;
+  height: 60px;
+  justify-content: space-evenly;
+  margin: 1%;
+}

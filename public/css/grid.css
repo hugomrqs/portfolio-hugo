@@ -1,0 +1,45 @@
+
+.pdp img{
+    border-radius: 50%;
+    grid-area: img;
+    }
+.pdp img:hover{
+    transform: perspective(800px) rotateY(-25deg) scale(.8) rotateX(10deg);
+    box-shadow: 0 60px 123px -25px hsla(225,2%,62%,.42),0 35px 75px -35px hsla(225,2%,62%,.08);filter: blur(0);
+    -webkit-transform: perspective(800px) rotateY(-25deg) scale(.8) rotateX(10deg);
+    transition: all .6s ease-out;
+}
+.description{
+    grid-area: block;
+    padding: 20px;
+}
+.container{
+    padding: 3em;
+}
+.container .toolbox{
+    align-items: center;
+background: #900C3F;
+border-radius: 15px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: .5rem;
+width: 70%;
+}
+.boxcontent{
+    align-items: center;
+background: #f7fff7ff;
+border-radius: 8px;
+display: flex;
+flex: 0 1 18%;
+height: 80px;
+justify-content: space-evenly;
+margin: 1%;
+}
+.boxtext p{
+    font-family: 'Hatcher', serif;
+    color: #900C3F;
+    text-decoration-line: none;
+    font-size: larger;
+}
+
